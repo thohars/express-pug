@@ -1,0 +1,16 @@
+{
+  "name": "express-pug-template",
+  "version": "1.0.0",
+  "description": "Simple Express.js + Pug template for messing around.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "author": "thohars",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    if title
+      title #{title}
+    else
+      title #{locals.meta.title}
+  body
+    block content
+    include includes/footer
